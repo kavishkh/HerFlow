@@ -34,11 +34,11 @@ const Marketplace = () => {
               </div>
               <p className="text-gray-600 mb-4">{product.description}</p>
               <div className="flex justify-between items-center">
-                <span className="text-2xl font-bold text-gray-900">${product.price}</span>
+                <span className="text-2xl font-bold text-gray-900">₹{product.price}</span>
                 <button className="px-4 py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition">
-                  Add to Cart
+                Add to Cart
                 </button>
-              </div>
+                </div>
             </div>
           </div>
         ))}
@@ -65,14 +65,14 @@ const products = [
   {
     name: "Organic Cotton Pads",
     description: "100% organic cotton, chemical-free menstrual pads for maximum comfort.",
-    price: 12.99,
+    price: 650,
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1583209814683-c023dd293cc6?auto=format&fit=crop&q=80&w=1000"
   },
   {
     name: "Menstrual Cup",
     description: "Medical-grade silicone cup for eco-friendly period care.",
-    price: 29.99,
+    price: 300,
     rating: 4.9,
     image: "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&q=80&w=1000"
   },
